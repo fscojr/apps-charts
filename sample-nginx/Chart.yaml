@@ -1,0 +1,8 @@
+apiVersion: v2
+dependencies:
+- name: firedev
+  repository: file://../.helm/apps_templates
+  version: 1.0.0
+description: FireDev apps
+name: sample-nginx
+version: 0c5357e
