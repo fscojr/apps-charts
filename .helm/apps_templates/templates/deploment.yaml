@@ -1,4 +1,5 @@
 {{- range $apps := $.Values.apps -}}
+{{- $namespace := $.Values.general.namespace | empty | ternary (printf "%s-%s" $.Values.general.repoName $.Values.general.environment | lower | replace "." "-" | replace "_" "-") $.Values.general.namespace }}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
