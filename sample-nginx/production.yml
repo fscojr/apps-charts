@@ -1,4 +1,4 @@
-firedev:
+itti:
   general:
     environment: production
     repoName: aegea-te-backend
