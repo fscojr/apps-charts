@@ -5,3 +5,5 @@ itti:
     repoGroup: sistemas-internos
     namespace: app-nginx-one
     version: 2.1
+  apps:
+    - name: casa-te-frontend
