@@ -1,0 +1,8 @@
+general:
+  repoName: sample-app
+  repoGroup: sample-group-name
+  imageRepository: docker.io
+  environment: staging
+  version: 1.0.0
+apps:
+  - name: sample-app

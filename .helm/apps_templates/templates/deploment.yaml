@@ -1,0 +1,27 @@
+{{- range $apps := $.Values.apps -}}
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: {{ $apps.name }}
+  name: {{ $apps.name }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: {{ $apps.name }}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: {{ $apps.name }}
+    spec:
+      containers:
+      - image: nginx
+        name: {{ $apps.name }}
+        resources: {}
+status: {}
+{{- end }}
+{{ printf "---" }}
