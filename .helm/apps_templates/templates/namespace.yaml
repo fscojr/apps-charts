@@ -1,0 +1,8 @@
+{{- $repoName := $.Values.general.repoName | lower | replace "." "-" | replace "_" "-" }}
+{{- $namespace := $.Values.general.namespace | empty | ternary (printf "%s-%s" $repoName $.Values.general.environment) $.Values.general.namespace }}
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: {{ $namespace }}
+  labels:
+    istio-injection: enabled
