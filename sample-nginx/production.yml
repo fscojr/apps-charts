@@ -3,4 +3,5 @@ firedev:
     environment: production
     repoName: aegea-te-backend
     repoGroup: sistemas-internos
-    version: 1.0-9aab3e0
+    version: 1.0-0457954
+    namespace: teste
