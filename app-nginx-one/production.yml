@@ -1,0 +1,7 @@
+itti:
+  general:
+    environment: production
+    repoName: app-nginx-one
+    repoGroup: sistemas-internos
+    namespace: app-nginx-one
+    version: 2.1
