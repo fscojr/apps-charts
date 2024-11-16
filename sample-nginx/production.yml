@@ -1,7 +1,6 @@
-itti:
+firedev:
   general:
     environment: production
     repoName: aegea-te-backend
     repoGroup: sistemas-internos
-    namespace: teste
-    version: 2.1
+    version: 1.0-9aab3e0

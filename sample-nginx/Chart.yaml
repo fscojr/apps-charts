@@ -1,8 +1,8 @@
 apiVersion: v2
 dependencies:
-- name: itti
+- name: firedev
   repository: file://../.helm/apps_templates
   version: 1.0.0
-description: teste
+description: FireDev apps
 name: sample-nginx
-version: "2.1"
+version: 1.0-9aab3e0
