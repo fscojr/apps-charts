@@ -2,5 +2,5 @@ itti:
   general:
     environment: production
     repoName: aegea-te-backend
-    repoGroup: sistemas-internos
-    version: b940bb5
+    #repoGroup: sistemas-internos
+    #version: b940bb5
