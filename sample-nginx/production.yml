@@ -3,4 +3,5 @@ itti:
     environment: production
     repoName: aegea-te-backend
     repoGroup: sistemas-internos
+    namespace: teste
     version: 2.1
