@@ -1,5 +1,4 @@
 {{- range $apps := $.Values.apps -}}
-{{- $version := $apps.version | empty | ternary $.Values.general.version $apps.version }}
 apiVersion: apps/v1
 kind: Deployment
 metadata:

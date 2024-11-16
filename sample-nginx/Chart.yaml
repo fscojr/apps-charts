@@ -5,4 +5,4 @@ dependencies:
   version: 1.0.0
 description: teste
 name: sample-nginx
-version: b940bb5
+version: "2.1"
