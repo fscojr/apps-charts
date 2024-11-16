@@ -17,7 +17,6 @@ spec:
       creationTimestamp: null
       labels:
         app: {{ $apps.name }}
-        version: {{ $version }}
     spec:
       containers:
       - image: nginx
